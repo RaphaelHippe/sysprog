@@ -1,0 +1,208 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.phone {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 25px;
+  background-color: #000;
+  border-radius: 15px;
+  height: 640px;
+  width: 360px;
+}
+
+.phone-info-bar {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 2px;
+  height: 20px;
+  width: 356px;
+  background-color: green;
+}
+
+.phone-display {
+  position: absolute;
+  width: 356px;
+  height: 550px;
+  margin-left: 2px;
+  margin-top: 40px;
+  background-color: #ccc;
+}
+
+.white {
+  color: #fff;
+}
+
+.max {
+  font-size: 300%;
+  /*text-align: center;*/
+  padding: 15px
+}
+
+.card {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+          box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-lg {
+  width: 346px;
+  height: 540px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.card-sm {
+  width: 346px;
+  height: 75px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.welcome-logo {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  margin-left: 115.5px;
+  margin-top: 50px;
+  background-color: pink;
+}
+
+.welcome-buttons {
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 35.6px;
+  /*background-color: blue;*/
+  width: 284.8px;
+  height: 325px;
+}
+
+.welcome-btn {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 35px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.headline-header {
+  text-align: center;
+  margin-top: 5px;
+  width: 356px;
+  position: absolute;
+}
+
+.headline {
+  width: 256px;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: -5px;
+  border: 1px solid #000;
+}
+
+.login-form {
+  margin-top: 100px;
+  margin-left: 34px;
+  width: 276px;
+}
+
+.login-fail {
+  color: red;
+}
+
+.myInputFail {
+  border-bottom: 1px solid red !important;
+}
+
+.my-input {
+  border: 0px;
+  border-bottom: 1px solid blue;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.my-input:focus {
+  outline: 0px;
+  background-color: yellow;
+}
+
+.sub-headline {
+  position: absolute;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.kochprofil-rating {
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 35.6px;
+  /*background-color: blue;*/
+  width: 284.8px;
+  height: 350px;
+
+}
+
+.swipe-menu {
+  height: 80px;
+  width: 356px;
+  background-color: blue;
+}
+
+.swipe-menu-nav {
+  height: 80px;
+  width: 71.2px;
+  float: left;
+}
+
+.swipe-menu-nav:hover {
+  background-color: lightblue;
+}
+
+.navActive {
+  background-color: darkblue;
+}
+
+.swipe-container {
+  height: 470px;
+  width: 356px;
+  margin-top: 0px;
+  /*background-color: red;*/
+}
+
+.sucheExpanded {
+  height: 470px;
+  width: 356px;
+  /*background-color: pink;*/
+}
+
+.kalenderExpanded {
+  height: 470px;
+  width: 356px;
+  /*background-color: yellow;*/
+
+}
+
+.ekExpanded {
+  height: 470px;
+  width: 356px;
+  /*background-color: purple;*/
+
+}
+
+.settingsExpanded {
+  height: 470px;
+  width: 356px;
+  /*background-color: orange;*/
+}
+
+.favoritenExpanded {
+  height: 470px;
+  width: 356px;
+  /*background-color: brown;*/
+}

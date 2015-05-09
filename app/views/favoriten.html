@@ -1,0 +1,10 @@
+<h2>Favoriten</h2>
+<input type="text" ng-model="search" />
+<input type="text" ng-model="searchName" />
+<div ng-repeat="f in favoriten | filter: search | filter:{'name': searchName}">
+  <div class="card card-sm">
+    {{f.name}}<br>
+    {{f.preis}}<br>
+    {{f.dauer}}
+    </div>
+</div>

@@ -1,0 +1,24 @@
+
+<div class="swipe-menu">
+  <div class="swipe-menu-nav" ng-click="setValues(0,1)" ng-class="{navActive: getActive()===0}">
+    <span class="glyphicon glyphicon-search max white"></span>
+  </div>
+  <div class="swipe-menu-nav" ng-click="setValues(1,2)" ng-class="{navActive: getActive()===1}">
+    <span class="glyphicon glyphicon-calendar max white"></span>
+  </div>
+  <div class="swipe-menu-nav" ng-click="setValues(2,3)" ng-class="{navActive: getActive()===2}">
+    <span class="glyphicon glyphicon-list-alt max white"></span>
+  </div>
+  <div class="swipe-menu-nav" ng-click="setValues(3,4)" ng-class="{navActive: getActive()===3}">
+    <span class="glyphicon glyphicon-heart max white"></span>
+  </div>
+  <div class="swipe-menu-nav" ng-click="setValues(4,5)" ng-class="{navActive: getActive()===4}">
+    <span class="glyphicon glyphicon-cog max white"></span>
+  </div>
+</div>
+  <span ng-init="suche=true;kalender=false;ek=false;settings=false"></span>
+  <div class="swipe-container" ng-repeat="content in contents | slice:testMenuStart:testMenuEnd">
+    <div class="pull-left" ng-class="'{{content.class}}'" ng-swipe-left="swipeLeft()" ng-swipe-right="swipeRight()">
+      <ng-include src="content.template"></ng-include>
+    </div>
+  </div>

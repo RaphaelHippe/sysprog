@@ -1,0 +1,20 @@
+<div class="card card-lg">
+  <div class="headline-header">
+    <h2>Anmelden</h2>
+    <hr class="headline">
+  </div>
+  <form ng-submit="login(credentials)" class="login-form">
+    <input type="text" ng-class="{myInputFail: loginFail}" ng-model="credentials.username" class="my-input" placeholder="Benutzername oder Email" />
+    <span class="login-fail" ng-show="loginFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <input type="password" ng-class="{myInputFail: loginFail}" ng-model="credentials.password" class="my-input" placeholder="Passwort" />
+    <span class="login-fail" ng-show="loginFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <div class="input-group">
+      <input type="checkbox" /> Passwort merken
+    </div>
+    <div class="input-group">
+      <input type="checkbox" /> Angemeldet bleiben
+    </div>
+    <br>
+    <button type="submit" class="center-block btn btn-lg btn-success">Anmelden</button>
+  </form>
+</div>
