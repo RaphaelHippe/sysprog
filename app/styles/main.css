@@ -18,7 +18,7 @@
   margin-left: 2px;
   height: 20px;
   width: 356px;
-  background-color: green;
+  background-color: #006600;
 }
 
 .phone-display {
@@ -27,7 +27,7 @@
   height: 550px;
   margin-left: 2px;
   margin-top: 40px;
-  background-color: #ccc;
+  background-color: #FCFCFC;
 }
 
 .white {
@@ -64,6 +64,21 @@
   margin-bottom: 15px;
 }
 
+.card-kochkalender{
+  width: 346px;
+  height: 220px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+}
+
+.card-Einstellungen{
+
+
+}
+
 .welcome-logo {
   position: absolute;
   height: 125px;
@@ -83,11 +98,25 @@
 }
 
 .welcome-btn {
+  text-align: center;
+  color: #FFFFFF;
   height: 60px;
   width: 100%;
   margin-bottom: 35px;
-  background-color: red;
+  background-color: #006600;
   cursor: pointer;
+  font-size: 30px;
+}
+
+.welcome-btnFacebook {
+  text-align: center;
+  color: #FFFFFF;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 35px;
+  background-color: #3B5998;
+  cursor: pointer;
+  font-size: 30px;
 }
 
 .headline-header {
@@ -151,7 +180,8 @@
 .swipe-menu {
   height: 80px;
   width: 356px;
-  background-color: blue;
+  background-color: #339933;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 
 .swipe-menu-nav {
@@ -165,7 +195,8 @@
 }
 
 .navActive {
-  background-color: darkblue;
+  background-color: #66FFFF;
+  opacity: 0.3;
 }
 
 .swipe-container {
@@ -205,4 +236,32 @@
   height: 470px;
   width: 356px;
   /*background-color: brown;*/
+}
+
+.rezept-image {
+  margin-top: 5px;
+  position: absolute;
+  margin-left: 5px;
+  width: 336px;
+  height: 210px;
+}
+
+.kochkalender-text-tag {
+  background-color: green;
+  box-radius: 45%;
+  margin-right: 200px;
+  position: relative;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.kochkalender-text-tag p{
+  margin: 5%;
+  font-weight: bold;
+  color: white;
+}
+
+.kochkalender-text-datum {
+  margin-top: 1px;
+  margin-right: 1px;
 }

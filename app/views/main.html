@@ -16,6 +16,7 @@
     <span class="glyphicon glyphicon-cog max white"></span>
   </div>
 </div>
+
   <span ng-init="suche=true;kalender=false;ek=false;settings=false"></span>
   <div class="swipe-container" ng-repeat="content in contents | slice:testMenuStart:testMenuEnd">
     <div class="pull-left" ng-class="'{{content.class}}'" ng-swipe-left="swipeLeft()" ng-swipe-right="swipeRight()">

@@ -10,10 +10,11 @@
 angular.module('kochApp')
   .service('Userservice', function Userservice() {
     var user = {};
+
     user.accounts = [
       {
         username: 'clemens',
-        password: 'fickdich01'
+        password: '1234'
       },
       {
         username: 'admin',
@@ -41,8 +42,5 @@ angular.module('kochApp')
         return user.register(credentials);
       }
     }
-
-
-
 
   });

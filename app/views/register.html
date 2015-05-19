@@ -5,13 +5,15 @@
   </div>
   <form ng-submit="register(credentials)" class="login-form">
     <input type="text" ng-class="{myInputFail: loginFail}" ng-model="credentials.username" class="my-input" placeholder="Benutzername" />
-    <span class="login-fail" ng-show="loginFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <span class="login-fail" ng-show="nameFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+
     <input type="email" ng-class="{myInputFail: loginFail}" ng-model="credentials.email" class="my-input" placeholder="Email" />
-    <span class="login-fail" ng-show="loginFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <span class="login-fail" ng-show="emailFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+
     <input type="password" ng-class="{myInputFail: loginFail}" ng-model="credentials.password" class="my-input" placeholder="Passwort" />
-    <span class="login-fail" ng-show="loginFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <span class="login-fail" ng-show="passwordFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
     <input type="password" ng-class="{myInputFail: loginFail}" ng-model="credentials.passwordConfirm" class="my-input" placeholder="Passwort wiederholen" />
-    <span class="login-fail" ng-show="loginFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <span class="login-fail" ng-show="passwordConfirmFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
 
     <br>
     <button type="submit" class="center-block btn btn-lg btn-success">Registrieren</button>

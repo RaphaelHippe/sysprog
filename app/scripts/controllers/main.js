@@ -95,7 +95,6 @@ angular.module('kochApp')
       $scope.testMenuEnd = end;
     };
 
-
     $scope.favoriten = [
       {
         name: 'Pommes',
@@ -114,5 +113,23 @@ angular.module('kochApp')
         dauer: '15 pommes'
       },
     ];
+
+    $scope.rezepte = [
+      {
+        tag: 'Heute (Di)',
+        datum: '12.Mai',
+        name: 'Lasagne mit Hackfleisch',
+
+        bild: '../../images/test.png'
+      },
+
+      {
+        tag: 'Morgen (Mi)',
+        datum: '13.Mai',
+        name: 'Ofenkartoffeln',
+        bild: '../../images/yeoman.png'
+      }
+
+    ]
 
   });

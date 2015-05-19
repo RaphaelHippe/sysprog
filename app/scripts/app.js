@@ -16,7 +16,7 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui-rangeSlider'
+    //'ui-rangeSlider'
   ])
   .config(function ($routeProvider) {
     $routeProvider

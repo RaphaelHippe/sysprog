@@ -4,10 +4,13 @@
     <hr class="headline">
   </div>
   <form ng-submit="login(credentials)" class="login-form">
+
     <input type="text" ng-class="{myInputFail: loginFail}" ng-model="credentials.username" class="my-input" placeholder="Benutzername oder Email" />
     <span class="login-fail" ng-show="loginFail">Benutzername oder Email existiert nicht<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+
     <input type="password" ng-class="{myInputFail: loginFail}" ng-model="credentials.password" class="my-input" placeholder="Passwort" />
-    <span class="login-fail" ng-show="loginFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+    <span class="login-fail" ng-show="passwordFail">Passwort ist falsch<span class="glyphicon glyphicon-exclamation-sign"></span></span>
+
     <div class="input-group">
       <input type="checkbox" /> Passwort merken
     </div>

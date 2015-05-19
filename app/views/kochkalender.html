@@ -1,1 +1,18 @@
-<h2>Kochkalender</h2>
+<div ng-repeat="r in rezepte">
+  <!--  <div class="card card-kochkalender"> -->
+
+     <div style="background-image:url({{r.bild}})" class="card card-kochkalender">
+       <div class="kochkalender-text-tag">
+         <p> {{r.tag}} <br> </p>
+       </div>
+
+     <div class="kochkalender-text-datum"> {{r.datum}}<br> </div>
+       {{r.name}}
+    </div>
+
+  <!--  <img src="images/test.png"/>  "{{r.bild}}" -->
+  <!--      <img ng-src="{{r.bild}}" class="rezept-image"/> -->
+
+    <!-- </div> -->
+
+</div>
